@@ -7,7 +7,16 @@ function Contact() {
       <div className="leftSide"></div>
       <div className="rightSide">
         <h1> Contact Us </h1>
-        <form id="contact-form" method="POST">
+        <form
+          id="contact-form"
+          method="POST"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setTimeout(() => {
+              alert("thank you");
+            }, 1000);
+          }}
+        >
           <label htmlFor="name">Name</label>
           <input name="name" placeholder="Enter Name" type="text" />
           <label htmlFor="email">Email</label>

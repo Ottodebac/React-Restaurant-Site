@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import Chef from "../Content/sushichef.jpeg";
 
 function About() {
   return (
@@ -8,18 +9,25 @@ function About() {
       <div className="aboutBottom">
         <h1> ABOUT US </h1>
         <p>
-          Welcome to our pizza paradise! At [PizzaSiteName], we are passionate
-          about crafting the most delicious and mouthwatering pizzas you'll ever
-          taste. With a legacy of pizza-making excellence that spans over
-          [number of years] years, we have perfected the art of creating the
-          perfect slice of heaven. At the heart of our success lies our
-          commitment to using only the finest, freshest ingredients in every
-          pizza we make. From hand-picked tomatoes bursting with flavor to
-          locally sourced vegetables and premium meats, we ensure that every
-          bite delivers an explosion of taste and quality. Our skilled and
-          dedicated chefs work tirelessly to create unique flavor combinations
-          that will leave you craving more.
+          A procession of deftly sliced, shaped, torched and brushed nigiri,
+          presented on a gleaming lacquered plate. An exploration of tastes and
+          textures; a sensory journey between the oceans of Japan and Australia.
         </p>
+      </div>
+      <div className="aboutSectionTwo">
+        <img src={Chef} alt="Yummy Sushi" />
+
+        <div className="sectionTwoText">
+          <h1> WHO WE ARE </h1>
+          <p>
+            Omakase is a culinary experience led by the chef, the produce and
+            the seasons. We offer two dining areas: the counter seating style
+            sushi bar for up to two guests; and the dining room for gatherings
+            of three and above. In both, we serve an omakase of nigiri and
+            Japanese cuisine bound by a common thread — meticulousness,
+            precision, technique and exquisite produce.
+          </p>
+        </div>
       </div>
     </div>
   );

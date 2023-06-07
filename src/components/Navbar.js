@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../Content/logo192.png";
+import Logo from "../Content/Together.png";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
@@ -29,9 +29,8 @@ function Navbar() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-        <button onClick={toggleNavbar}>
+        <button className="reorder-button" onClick={toggleNavbar}>
           <ReorderIcon />
-          make this interactive
         </button>
       </div>
     </nav>
