@@ -45,18 +45,18 @@
 }
 
 .aboutSectionTwo img {
-  width: 50%; /* Adjust the width as needed */
-  max-width: 400px; /* Set a maximum width for the image */
+  width: 50%;
+  max-width: 400px;
   border-radius: 20px;
 }
 
 .sectionTwoText {
-  width: 50%; /* Adjust the width as needed */
-  padding: 0 40px; /* Add padding for spacing */
+  width: 50%;
+  padding: 0 40px;
 }
 
 .sectionTwoText h1 {
-  font-size: 40px; /* Adjust the font size as needed */
+  font-size: 40px;
   font-weight: 400;
   color: black;
   margin-bottom: 20px;
